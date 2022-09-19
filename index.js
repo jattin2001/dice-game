@@ -31,6 +31,7 @@ function showResetButton() {
         player1Score += randomNumber
         player1Scoreboard.textContent = player1Score
         player1Dice.innerHTML = `<img class="dice-img" src="images/${randomNumber}.png" alt=${randomNumber}</img>`
+        // player1Dice.textContent = randomNumber;
         player1Dice.classList.remove("active")
         player2Dice.classList.add("active")
         message.textContent = "Player 2 Turn"
@@ -40,6 +41,7 @@ function showResetButton() {
         player2Score += randomNumber
         player2Scoreboard.textContent = player2Score
         player2Dice.innerHTML = `<img class="dice-img" src="images/${randomNumber}.png" alt=${randomNumber}</img>`
+        player2Dice.textContent = randomNumber;
         player2Dice.classList.remove("active")
         player1Dice.classList.add("active")
         message.textContent = "Player 1 Turn"
