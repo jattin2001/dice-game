@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+</head>
+<body>
+      <div class="container">
+            <h1 id="message">Player 1 Turn</h1>
+            <div class="players">
+                <div id="player1">
+                    <h1>P-1 Score
+                        <span id="player1Scoreboard">0</span>
+                    </h1>
+                    <div id="player1Dice" class="dice active">-</div>
+                </div>
+                <div id="player2">
+                    <h1>P-2 Score
+                        <span id="player2Scoreboard">0</span>
+                    </h1>
+                    <div id="player2Dice" class="dice">-</div>
+                </div>
+            </div>
+            <button id="rollBtn">Roll Dice 🎲</button>
+            <button id="resetBtn"></button>
+        </div>
+
+        <footer>
+            <p>Made by Jattin Khajuria</p>
+            <p>© 2022–2023 JK, Inc.  All rights reserved.</p>
+        </footer>
+        <script src="index.js"></script>
+        <script src="confetti.js"></script>
+    </body>
+</html>
