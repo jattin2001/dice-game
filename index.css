@@ -61,8 +61,7 @@ body {
 @media (min-width:860px) {
     .container{
         width: 50%;
-        height: 60vh;
-        margin-bottom: 25vh;
+        height: 85vh;
     }
     .players{
         flex-direction: row;

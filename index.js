@@ -95,5 +95,5 @@ function reset() {
         const stop = () => {
             setTimeout(function() {
                 confetti.stop()
-            }, 4000); 
+            }, 2000); 
         };
