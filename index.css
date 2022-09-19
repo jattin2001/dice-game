@@ -63,6 +63,7 @@ body {
     .container{
         width: 50%;
         height:60vh;
+        margin: 5em auto;
     }
     .players{
         flex-direction: row;
@@ -151,11 +152,13 @@ button:focus {
 @keyframes reset-delay {
     0%{
         position: relative;
-        top:1000px;
+        left:-2000px;
+
     }
     100%{
         position: relative;
-        top: 0;
+        left: 20px;
+
     }
 
 }
